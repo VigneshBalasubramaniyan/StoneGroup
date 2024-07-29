@@ -349,13 +349,8 @@ nav {
   color: var(--primary-color);
 }
 /* logos*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-.logos{
+.logos__container{
   background: #f2f2f2;
 }
 
@@ -368,9 +363,9 @@ nav {
   }
 }
 
-.logos {
+.logos__container {
   overflow: hidden;
-  padding: 60px 0;
+  padding: 10px 0;
   background: white;
   white-space: nowrap;
   position: relative;
@@ -401,12 +396,12 @@ nav {
 }
 
 .logos-slide {
-  display: inline-block;
+  display:inline-flex;
   animation: 35s slide infinite linear;
 }
 
 .logos-slide img {
-  height: 100px;
+  height: 150px;
   margin: 0 40px;
 }
 
