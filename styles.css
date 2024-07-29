@@ -117,7 +117,7 @@ nav {
 }
 
 .nav__logo img {
-  max-width: 70px;
+  max-width: 100px;
 }
 
 .nav__links {
@@ -479,6 +479,7 @@ nav {
 .footer__col p {
   margin-bottom: 2rem;
   color: var(--text-light);
+  font-size: 0.8rem;
 }
 
 .footer__socials {
@@ -502,7 +503,7 @@ nav {
 
 .footer__col h4 {
   margin-bottom: 1.5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--text-dark);
 }
