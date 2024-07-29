@@ -397,7 +397,7 @@ nav {
 
 .logos-slide {
   display:inline-flex;
-  animation: 10s slide infinite linear;
+  animation: 35s slide infinite linear;
 }
 
 .logos-slide img {
